@@ -1,6 +1,6 @@
 {
   "title": "Peru Consult API",
-  "description": "API REST para consultar RUC y DNI",
+  "description": "API REST para consultar el RUC y DNI.",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
@@ -13,16 +13,18 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": "Giancarlos Salas"
+      "credits": "https://github.com/giansalex"
     },
     "finish": {
       "text": "finish.md"
     }
   },
   "environment": {
+    "icon": "fa-docker",
+    "showdashboard": true,
     "uilayout": "terminal",
-    "dashboards": [{"name": "Peru Consult API", "port": 80}],
-    "uimessage1": "\u001b[Terminal con Docker\u001b[m\r\n"
+    "dashboards": [{"name": "Peru API REST", "port": 80}],
+    "uimessage1": "\u001b[32mTerminal con Docker.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "docker"
