@@ -1,0 +1,40 @@
+{
+  "title": "Greenter Xmldsig",
+  "description": "Tool for sign xml.",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [{
+      "title": "Paso 1 - Install Xmldsig",
+      "text": "step1.md"
+    },{
+      "title": "Paso 2 - Run Sample",
+      "text": "step2.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": "https://github.com/giansalex",
+      "courseData": "sudo apt-get install php && curl --silent --show-error -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "assets/*",
+          "target": "./"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "icon": "fa-php",
+    "showdashboard": true,
+    "uilayout": "editor-terminal",
+    "uimessage1": "\u001b[32mTerminal con Docker.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
