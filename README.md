@@ -1,4 +1,4 @@
-# Interactive Katacoda Scenarios
+# Interactive Katacoda Scenarios by Giansalex
 
 [![](http://shields.katacoda.com/katacoda/giansalex/count.svg)](https://www.katacoda.com/giansalex "Get your profile on Katacoda.com")
 
