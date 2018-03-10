@@ -23,7 +23,7 @@
       "client": [
         {
           "file": "assets/*",
-          "target": "./"
+          "target": "/root"
         }
       ]
     }
@@ -32,7 +32,8 @@
     "icon": "fa-php",
     "showdashboard": true,
     "uilayout": "editor-terminal",
-    "uimessage1": "\u001b[32mTerminal con Docker.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mTerminal con Php.\u001b[m\r\n",
+    "uisettings": "php"
   },
   "backend": {
     "imageid": "ubuntu"
