@@ -13,16 +13,15 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": "https://github.com/giansalex",
-      "courseData": "php.sh"
+      "credits": "https://github.com/giansalex"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
+      "client": [
         {
-          "file": "assets/*",
+          "file": "*",
           "target": "/root"
         }
       ]
