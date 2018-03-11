@@ -39,6 +39,6 @@
     "uisettings": "php"
   },
   "backend": {
-    "imageid": "bash"
+    "imageid": "ubuntu"
   }
 }
