@@ -20,9 +20,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "host01": [
+      "client": [
         {
-          "file": "assets/*",
+          "file": "*",
           "target": "/root"
         }
       ]
