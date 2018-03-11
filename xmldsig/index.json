@@ -13,6 +13,7 @@
     }],
     "intro": {
       "text": "intro.md",
+      "code": "php.sh",
       "credits": "https://github.com/giansalex"
     },
     "finish": {
@@ -27,6 +28,9 @@
       ]
     }
   },
+  "files": [
+    "index.php"
+  ],
   "environment": {
     "icon": "fa-php",
     "showdashboard": true,
@@ -35,6 +39,6 @@
     "uisettings": "php"
   },
   "backend": {
-    "imageid": "ubuntu"
+    "imageid": "docker"
   }
 }
