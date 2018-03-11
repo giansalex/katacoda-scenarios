@@ -22,8 +22,8 @@
     "assets": {
       "client": [
         {
-          "file": "*",
-          "target": "/root"
+          "file": "assets/*",
+          "target": "~/"
         }
       ]
     }
@@ -39,6 +39,6 @@
     "uisettings": "php"
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "bash"
   }
 }
